@@ -1,0 +1,10 @@
+{
+  "name": "twitch-knock-blocker",
+  "version": "1.0.0",
+  "description": "Blocks the knock buttons in the UI on Twitch.tv",
+  "scripts": {
+    "build": "zip -r twitch-knock-block-chrome-extension"
+  },
+  "author": "thaMANSTA",
+  "license": "MIT"
+}

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Knock Blocker",
+  "version": "1.0",
+  "description": "Blocks the knock buttons in the UI on Twitch.tv",
+  "author": "thaMANSTA",
+  "homepage_url": "https://github.com/thaMANSTA/twitch-knock-blocker",
+  "icons": {
+    "16": "knock-blocker-icon.png",
+    "48": "knock-blocker-icon.png",
+    "128": "knock-blocker-icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.twitch.tv/*"
+      ],
+      "js": [
+        "twitch-knock-blocker.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
