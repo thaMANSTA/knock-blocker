@@ -8,10 +8,11 @@ function removeKnockButtons() {
       // Optionally, you can completely remove the node:
       //btn.remove();
     }
+  });
 }
 
 // Run the function initially in case the buttons are already loaded
-function removeKnockButtons();
+removeKnockButtons();
 
 // Set up a MutationObserver to catch dynamically loaded content
 const observer = new MutationObserver(() => {
